@@ -11,6 +11,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./main.js" defer></script>
 </head>
 <body>
@@ -39,14 +41,13 @@
     </header>
     
     <main>
-        <div class="contenedor-titulos">
-            
+
+        <section class="contenedor-titulos">
             <div class="contenedor-titulo  rounded">
                 <h1 class="titulo_RLG" id="banner">(Re)Lecturas grabadas</h2>
-                    <h1 class="titulo_LCDS" id="banner-bottom">Los cuentos de Sara</h2>
-                        
-                    </div>
-                </div>
+                <h1 class="titulo_LCDS" id="banner-bottom">Los cuentos de Sara</h2> 
+            </div>
+        </section>
                 
                 <section class="presentacion" id="presentacion">
                     <div class="descipcion rounded">
@@ -67,18 +68,18 @@
                 <section class="episodios" id="episodios">            
                     <div class="contenedor-episodios row g-3">
                         <div class="episodio col col-md-4">
-                            <div class="card h-100">
+                            <div class="card h-100" data-aos="fade-up">
                                 
                                 <img src="./images/portada episodio 1.png" class="card-img-top" alt="Portada del episodio 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Episodio 1: La fiesta</h5>
-                                    <p class="card-text">En este primer episodio, estudiantes de distintos cursos de la Escuela Sara Bartfeld Rietti nos invitan a una fiesta muy particular. A través de relatos, preguntas y textos propios, nos proponen pensar juntxs sobre los encuentros, las diferencias y las formas de relacionarnos con lxs otres.</p>
+                                    <p class="card-text">¿Fuiste alguna vez a una fiesta de cumpleaños y de golpe un mono asesino te atacó? ¿No? A la protagonista de “La fiesta ajena” de Liliana Heker... ¡tampoco!. Veamos qué es lo que sí le sucedió a esta niña.</p>
                                     <a href="https://soundcloud.com/user-588648792/episodio-1-la-fiesta" class="btn btn-primary" target="_blank">Escuchar en SoundCloud</a>
                                 </div>
                             </div>
                         </div>
                         <div class="episodio col col-md-4">
-                            <div class="card h-100">
+                            <div class="card h-100" data-aos="fade-up">
                                 
                                 <img src="https://placehold.co/400x400?text=Episodio+2"class="card-img-top" alt="Portada del episodio 1">
                                 <div class="card-body">
@@ -87,7 +88,8 @@
                                     <a href="https://soundcloud.com/user-588648792/episodio-1-la-fiesta" class="btn btn-primary" target="_blank">Escuchar en SoundCloud</a>
                                 </div>
                             </div>
-                        </div><div class="episodio col col-md-4">
+                        </div>
+                        <div class="episodio col col-md-4" data-aos="fade-up">
                             <div class="card h-100">
                                 
                                 <img src="https://placehold.co/400x400?text=Episodio+3" class="card-img-top" alt="Portada del episodio 1">
@@ -100,10 +102,11 @@
                         </div>
                     </div>
                 </section>
-            </main>
             
-            <section class="equipo">
-                <article class="miembro-del-equipo" id="equipo"> <div class="contenedor-miembro">
+            
+            <section class="equipo" id="equipo">
+                
+                <article data-aos="zoom-in-up" class="miembro-del-equipo" data-aos="zoom-in-up" > <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Helena Aguilar
@@ -111,7 +114,7 @@
                     <!-- https://placehold.co/400 -->
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Lucía Báñez
@@ -119,69 +122,69 @@
                     <!-- https://placehold.co/400 -->
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Antonela Batista
                     </h5>
                 </div></article>
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Camila Batista
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Bautista Gherardi
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Augusto Obregón
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Josué Orellana
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Morella Orselli
                     </h5>
                     
                 </div></article>
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Emma Rodriguez Piaggio
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Tamara Quiroga
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Sandra Ramírez
                     </h5>
                 </div></article>
                 
-                <article class="miembro-del-equipo"> <div class="contenedor-miembro">
+                <article class="miembro-del-equipo" data-aos="zoom-in-up"> <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
                         Victoria Rodriguez
@@ -192,8 +195,8 @@
                 <!-- https://placehold.co/400 -->
                 
             </section>
-            
-            <footer>
+            </main>
+            <footer class="gradient-background p-2 text-center">
                 (C)2025
             </footer>
         </body>
