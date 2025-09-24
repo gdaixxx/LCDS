@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Los cuentos de Sara</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
@@ -14,6 +14,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./main.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -39,9 +40,7 @@
             </div>
         </nav>
     </header>
-    
     <main>
-
         <section class="contenedor-titulos">
             <div class="contenedor-titulo  rounded">
                 <h1 class="titulo_RLG" id="banner">(Re)Lecturas grabadas</h2>
@@ -49,8 +48,9 @@
             </div>
         </section>
                 
-                <section class="presentacion" id="presentacion">
-                    <div class="descipcion rounded">
+                <section class="presentacion" id="presentacion" >
+                    <h2 class="subtit">¿De qué se trata esto?</h2>
+                    <div class="descipcion rounded" data-aos="zoom-in">
                         <p>
                             Este sitio nace como espacio liminar para alojar una experiencia colectiva de lectura en voz alta, donde la literatura se vuelve acontecimiento y la escuela, territorio de agenciamiento. Inspiradxs por el volumen "Lecturas grabadas" (2014) del Plan Nacional de Lecturas, proponemos una práctica que desborda el formato escolar y recupera la potencia de la voz como vínculo, como gesto de apropiación y como forma de subjetivación.
                         </p>
@@ -62,18 +62,20 @@
                 </section>
                 
                 <section class="trailer" id="trailer">
-                    <video class="video-sara" src="./images/Trailer LCDS - Con video.mp4"  controls></video> 
+                                                        <h2 class="subtit">Este no es un podcast cualquiera...</h2>
+                    <video class="video-sara" src="./images/Trailer LCDS - Con video.mp4" data-aos="zoom-in" controls></video> 
                 </section>
                 
-                <section class="episodios" id="episodios">            
+                <section class="episodios" id="episodios"> 
+                   
                     <div class="contenedor-episodios row g-3">
                         <div class="episodio col col-md-4">
                             <div class="card h-100" data-aos="fade-up">
                                 
                                 <img src="./images/portada episodio 1.png" class="card-img-top" alt="Portada del episodio 1">
                                 <div class="card-body">
-                                    <h5 class="card-title">Episodio 1: La fiesta</h5>
-                                    <p class="card-text">¿Fuiste alguna vez a una fiesta de cumpleaños y de golpe un mono asesino te atacó? ¿No? A la protagonista de “La fiesta ajena” de Liliana Heker... ¡tampoco!. Veamos qué es lo que sí le sucedió a esta niña.</p>
+                                    <h5 class="card-title">Episodio 1: La fiesta ajena</h5>
+                                    <p class="card-text">¿Fuiste alguna vez a una fiesta de cumpleaños y de golpe un mono asesino te atacó? ¿No? A la protagonista de “La fiesta ajena” (1991) de Liliana Heker... ¡tampoco!. Veamos qué es lo que sí le sucedió a esta niña.</p>
                                     <a href="https://soundcloud.com/user-588648792/episodio-1-la-fiesta" class="btn btn-primary" target="_blank">Escuchar en SoundCloud</a>
                                 </div>
                             </div>
@@ -84,7 +86,8 @@
                                 <img src="https://placehold.co/400x400?text=Episodio+2"class="card-img-top" alt="Portada del episodio 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Episodio 2: El marica</h5>
-                                    <p class="card-text">En este primer episodio, estudiantes de distis formas de relacionarnos con lxs otres.</p>
+                                    <p class="card-text">Hay sentimientos que nunca logran salir, como esas cartas que guardaste en el fondo del placard… o del closet. Este relato publicado por Abelardo Castillo en 1959 te invita a reflexionar sobre esas verdades… "Porque hay cosas que uno lleva mordidas, trampeadas en la vergüenza toda la vida", como dice el protagonista de esta historia.
+</p>
                                     <a href="https://soundcloud.com/user-588648792/episodio-1-la-fiesta" class="btn btn-primary" target="_blank">Escuchar en SoundCloud</a>
                                 </div>
                             </div>
@@ -95,7 +98,7 @@
                                 <img src="https://placehold.co/400x400?text=Episodio+3" class="card-img-top" alt="Portada del episodio 1">
                                 <div class="card-body">
                                     <h5 class="card-title">Episodio 3: La plapla</h5>
-                                    <p class="card-text">En este primer episodio, estudiantes de distintos cursos de la Escuela Sara Bartfeld Rietti nos invitan a una fiesta muy particular. A través de relatos, preguntas y textos propios, nos proponen pensar juntxs sobre los encuentros, las diferencias y las formas de relacionarnos con lxs otres.</p>
+                                    <p class="card-text">¿Cuán peligrosa puede ser una letra que se escapa del abecedario como para que las autoridades decidan censurarla? Algo de esto ocurre en el cuento de María Elena Walsh, escrito allá por 1966, en las puertas mismas del gobierno dictatorial de Onganía. Una historia que nos recuerda que a los podersos lo distinto siempre les es incómodo.</p>
                                     <a href="https://soundcloud.com/user-588648792/episodio-1-la-fiesta" class="btn btn-primary" target="_blank">Escuchar en SoundCloud</a>
                                 </div>
                             </div>
@@ -105,7 +108,7 @@
             
             
             <section class="equipo" id="equipo">
-                
+                                    <h2 class="subtit">¿Quiénes están detrás de esto?</h2>
                 <article data-aos="zoom-in-up" class="miembro-del-equipo" data-aos="zoom-in-up" > <div class="contenedor-miembro">
                     <img src="https://this-person-does-not-exist.com/img/avatar-gen7603072526877231ee360a5f02af7e8b.jpg" alt="" class="foto-de-miembro">
                     <h5 class="nombre-de-miembro">
